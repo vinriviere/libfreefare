@@ -139,7 +139,7 @@ mifare_key_deriver_update_uid(MifareKeyDeriver deriver, FreefareTag tag)
     case NMT_ISO14443B:
     case NMT_ISO14443BI:
     case NMT_JEWEL:
-    case NMT_BARCODE:
+    //case NMT_BARCODE:
 	ret = -1;
 	errno = EINVAL;
 	break;
