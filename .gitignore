@@ -43,3 +43,4 @@ examples/ntag-write
 test/test-suite.log
 test/run-test.sh.log
 test/run-test.sh.trs
+*.exe
